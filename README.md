@@ -2,22 +2,6 @@
 
 Aplicação composta por Frontend (React), Backend (Flask) e Banco de Dados PostgreSQL, implantada em Kubernetes utilizando Deployments, StatefulSet, ConfigMaps, Secrets, PVC e Ingress.
 
-📁 Estrutura do Repositório
-projeto-k8s-deploy/
-├── README.md
-├── namespace.yaml
-├── frontend/
-│   └── deployment.yaml
-├── backend/
-│   ├── deployment.yaml
-│   └── configmap.yaml
-├── database/
-│   ├── statefulset.yaml
-│   ├── pvc.yaml
-│   └── secret.yaml
-└── ingress/
-    └── ingress.yaml
-
 🧩 Componentes da Aplicação
 🔵 Frontend (React)
 
